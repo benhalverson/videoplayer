@@ -1,17 +1,30 @@
 {
-  "name": "30daychallengejs",
-  "version": "1.0.0",
+  "name": "demoVideoPlayer",
+  "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server"
+    "test": "",
+    "start": "webpack-dev-server",
+    "commit": "git-cz",
+    "semantic-release": "semantic-release"
   },
   "author": "Ben Halverson <benhalverson33@gmail.com> (http://benhalverson.me/)",
   "license": "MIT",
   "devDependencies": {
+    "commitizen": "2.9.6",
     "eslint": "4.19.1",
     "eslint-config-airbnb-base": "12.1.0",
     "eslint-plugin-import": "2.11.0",
+    "semantic-release": "^15.3.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benhalverson/videoplayer.git"
   }
 }
